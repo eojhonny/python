@@ -1,0 +1,43 @@
+#ler 2 valores (entrada)okk
+#imprima o resultado da multiplicação (saida)
+
+
+valor1= int(input("Insira o valor \n"))
+valor2= int(input("Insira o valor \n"))
+
+resultado= valor1*valor2
+
+print ("o resultado seria:", resultado)
+
+***************************************************
+while True:
+  valor1= int(input("Insira um numero de 1 a 3 \n"))
+  if valor1== 1:
+    print ("valor 1 registrado")
+    break
+  if valor1== 2:
+    print ("valor 2 registrado")
+    break
+  if valor1== 3:
+    print ("valor 3 registrado")
+    break
+  if valor1>4:
+    print ("insira um valor valido")
+  if valor1<1:
+    print ("insira um valor valido")
+**********************************************************
+while True:
+  nota_aluno= float(input("insira a nota do aluno \n"))
+  if nota_aluno<6:
+    print("este aluno reprovou")
+  if nota_aluno>6 and nota_aluno<10:
+    print ("este aluno passou de ano")
+  if nota_aluno==6:
+    print ("este aluno tiro a media porem passou")
+  if nota_aluno>10:
+    print ("insira a nota correta")
+  if nota_aluno==10:
+      print ("este aluno foi exemplar")
+***************************************************************
+resultado= n/d * n/d
+	print ("resultado)
